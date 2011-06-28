@@ -1,5 +1,7 @@
 require "ellipsis/version"
 
 module Ellipsis
-  # Your code goes here...
+  require 'ellipsis/core_ext/array/conversions'
 end
+
+
