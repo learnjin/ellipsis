@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "ellipsis"
   s.version     = Ellipsis::VERSION
   s.authors     = ["Kai Rubarth"]
-  s.email       = ["krubar@gmail.com"]
+  s.email       = ["kai@doxter.de"]
   s.homepage    = ""
   s.summary     = %q{Converts arrays into abbreviated String representations.}
   s.description = %q{The gem provides various methods for turning a list of elements into an abbreviated string representation.}
