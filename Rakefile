@@ -4,6 +4,9 @@ require 'rake/rdoctask'
 
 Bundler::GemHelper.install_tasks
 
+desc 'Default: run all tests'
+task :default => :test
+
 desc 'Run unit tests'
 Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
